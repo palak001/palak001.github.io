@@ -69,12 +69,10 @@ const App = () => {
                                             all-time favorite book is "Surely
                                             You Are Joking Mr. Feynman". I am
                                             also into maintaining my (almost)
-                                            daily journal. <br /> Thanks for
-                                            stopping by. I hope you have a
-                                            wonderful day ahead. 🌟
+                                            daily journal.
                                             <br /> <br />
-                                            P.S. I apologize if these flowers
-                                            are a bit too much for you. I simply
+                                            p.s. apologies if these flowers are
+                                            a bit too much for you. I simply
                                             couldn't resist having them.
                                         </p>
                                     </div>
