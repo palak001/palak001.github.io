@@ -71,7 +71,7 @@ const App = () => {
                                             also into maintaining my (almost)
                                             daily journal. <br /> <br />
                                             p.s. I apologize if these flowers
-                                            are a bit too much for you. I just
+                                            are a bit too much for you. I simply
                                             couldn’t resist having them.
                                         </p>
                                     </div>
