@@ -69,10 +69,7 @@ const App = () => {
                                             all-time favorite book is "Surely
                                             You Are Joking Mr. Feynman". I am
                                             also into maintaining my (almost)
-                                            daily journal. I like calling it my
-                                            Adventure Book. Though how
-                                            adventurous is a quite subjective.{" "}
-                                            <br /> <br />
+                                            daily journal. <br /> <br />
                                             p.s. I apologize if these flowers
                                             are a bit too much for you. I just
                                             couldn’t resist having them.
