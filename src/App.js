@@ -84,7 +84,7 @@ const App = () => {
                         <div className="icons">
                             <div style={{ padding: "10px" }}>
                                 <a
-                                    href="https://github.com/thestelllar"
+                                    href="https://github.com/palak001"
                                     target="_blank"
                                 >
                                     <FontAwesomeIcon
