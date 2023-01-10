@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 25vh;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 750px) {
+    .about_me_1 {
+        font-family: "Cormorant", serif;
+        font-size: 20px;
+        padding: 15px;
+        text-transform: lowercase;
+        letter-spacing: 5px;
+        font-weight: bold;
+    }
+}

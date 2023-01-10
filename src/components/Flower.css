@@ -1,0 +1,129 @@
+body {
+    --t: 1;
+    --scale: 5;
+}
+
+.flower-top-svg-container {
+    width: 55%;
+    height: 100%;
+    /* border: 1px solid green; */
+}
+
+.flower-bottom-svg-container {
+    width: 55%;
+    height: 100%;
+    /* border: 1px solid green; */
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+    fill-opacity: 0.8;
+    /* border: 1px solid green; */
+}
+
+svg path {
+    transform: rotate(0deg);
+    transition: transform calc(var(--t) * 1s);
+}
+
+svg g.svg_bottom_g,
+g.svg_top_g {
+    transition: transform 3s;
+}
+
+svg g.a {
+    transition: transform calc(var(--t) * 1s);
+}
+svg g.a {
+    transform: scale(var(--scale)) rotate(-90deg);
+    filter: url("#f");
+}
+
+._2 {
+    --n: 2;
+}
+._3 {
+    --n: 3;
+}
+._4 {
+    --n: 4;
+}
+._5 {
+    --n: 5;
+}
+
+svg .a g:nth-of-type(1) {
+    transform: rotate(calc(-0.5 * 180deg / var(--n)));
+}
+svg .a g:nth-of-type(2) {
+    transform: rotate(calc(0.5 * 180deg / var(--n)));
+}
+
+svg .b:nth-of-type(1) path:nth-of-type(2) {
+    transform: rotate(calc(-1deg * 180 / var(--n)));
+}
+svg .b:nth-of-type(1) path:nth-of-type(3) {
+    transform: rotate(calc(-2deg * 180 / var(--n)));
+}
+svg .b:nth-of-type(1) path:nth-of-type(4) {
+    transform: rotate(calc(-3deg * 180 / var(--n)));
+}
+svg .b:nth-of-type(1) path:nth-of-type(5) {
+    transform: rotate(calc(-4deg * 180 / var(--n)));
+}
+
+svg .a g:nth-of-type(2) path:nth-of-type(2) {
+    transform: rotate(calc(1deg * 180 / var(--n)));
+}
+svg .a g:nth-of-type(2) path:nth-of-type(3) {
+    transform: rotate(calc(2deg * 180 / var(--n)));
+}
+svg .a g:nth-of-type(2) path:nth-of-type(4) {
+    transform: rotate(calc(3deg * 180 / var(--n)));
+}
+svg .a g:nth-of-type(2) path:nth-of-type(5) {
+    transform: rotate(calc(4deg * 180 / var(--n)));
+}
+
+@media only screen and (max-width: 1200px) {
+    .flower-top-svg-container {
+        width: 60%;
+        height: 100%;
+    }
+
+    .flower-bottom-svg-container {
+        width: 60%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .flower-top-svg-container {
+        width: 80%;
+        height: 100%;
+    }
+
+    .flower-bottom-svg-container {
+        width: 80%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .flower-top-svg-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .flower-bottom-svg-container {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        --scale: 6;
+    }
+}
