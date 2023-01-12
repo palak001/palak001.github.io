@@ -62,7 +62,7 @@ const App = () => {
                                         <p className="about_me_text">
                                             Hi there! I am Palak. <br />I am a
                                             final-year Computer Science student
-                                            from NIT Kurukshetra. I will join
+                                            from NIT Kurukshetra. I'll join
                                             Microsoft as a Software Engineer in
                                             the summer of 2023. Apart from
                                             coding, I love reading books. My
