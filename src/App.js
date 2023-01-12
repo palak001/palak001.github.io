@@ -67,11 +67,11 @@ const App = () => {
                                             the summer of 2023. Apart from
                                             coding, I love reading books. My
                                             all-time favorite book is "Surely
-                                            You Are Joking Mr. Feynman". I am
+                                            You're Joking, Mr. Feynman!" I am
                                             also into maintaining my (almost)
-                                            daily journal.
+                                            weekly journal.
                                             <br /> <br />
-                                            p.s. apologies if these flowers are
+                                            P.S. Apologies if these flowers are
                                             a bit too much for you. I simply
                                             couldn't resist having them.
                                         </p>
