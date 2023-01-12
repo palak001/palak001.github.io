@@ -74,6 +74,15 @@ const App = () => {
                                             P.S. Apologies if these flowers are
                                             a bit too much for you. I simply
                                             couldn't resist having them.
+                                            <br />
+                                            <br />
+                                            Link to my&nbsp;
+                                            <a
+                                                href="https://thestelllar.github.io/stelllars_blog/"
+                                                target="_blank"
+                                            >
+                                                Blog
+                                            </a>
                                         </p>
                                     </div>
                                 )}
